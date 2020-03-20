@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ReqSys  Plug-in
+Bundle-SymbolicName: ReqSysPlugin;singleton:=true
+Bundle-Version: 2.0.0
+Bundle-Activator: reqsysplugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Import-Package: org.eclipse.equinox.http.registry,
+ org.eclipse.ui.console
